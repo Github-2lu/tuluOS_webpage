@@ -1,0 +1,93 @@
+footer{
+    background-color: #e9ecf1;
+    padding: 20px;
+    color: #48617c;
+    border-radius: 20px;
+}
+
+.footerContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerContainer .footerRight{
+    display: flex;
+    flex-direction: column;
+}
+
+#footerLogo {
+    width: 40px;
+    height: 40px;
+    background-image: url("https://assets.zorincdn.com/zorin.com/images/nav/logo.svg");
+    display: block;
+    background-origin: content-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+.contactForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+    margin-top: 2rem;
+}
+
+.contactForm input, .contactForm textarea{
+    width: 100%;
+    font-size: 13px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    margin-bottom: 12px;
+}
+
+.contactForm textarea {
+    resize: none;
+    height: 200px;
+}
+
+.contactForm button {
+    height: 40px;
+    max-width: 150px;
+    font-weight: 600;
+    font-size: large;
+    background-color: #15a6f0;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.contactForm button:hover{
+    background-color: #029be9;
+}
+
+.social{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.social ul{
+    display: flex;
+    list-style: none;
+}
+
+.social ul li{
+    margin-left: 20px;
+}
+
+.social i {
+    font-size: 45px;
+    color: #48617c;
+}
+
+.social i:hover{
+    transform: translateY(-10px);
+    transition: 0.2s;
+}

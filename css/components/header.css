@@ -1,0 +1,38 @@
+.headContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.navLinks {
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+
+.navLink {
+    margin-left: 20px;
+}
+
+.navLinks a{
+    text-decoration: none;
+    color: rgba(18,51,84,.65);
+}
+.navLinks a:hover {
+    color: rgb(66, 64, 64);
+}
+
+.navLogo {
+    width: 40px;
+    height: 40px;
+    background-image: url("https://assets.zorincdn.com/zorin.com/images/nav/logo.svg");
+    display: block;
+    background-origin: content-box;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: transparent;
+}
+
+.toggle{
+    display: none;
+}

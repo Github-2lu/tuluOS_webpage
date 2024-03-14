@@ -1,0 +1,19 @@
+#customApps .contain{
+    background-image: linear-gradient(65deg, #1e2529, #354249);
+    color: #bde6fb;
+    padding: 20px 0;
+    border-radius: 20px;
+}
+
+#customApps a {
+    display: inline-block;
+    margin: 20px 0;
+    color: #bde6fb;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+}
+
+#customApps a:hover{
+    text-decoration:underline;
+}

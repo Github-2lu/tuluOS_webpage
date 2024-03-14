@@ -1,0 +1,36 @@
+#downloadSection .contain{
+    margin-top: 10px;
+    padding: 20px 0px;
+    background-image: linear-gradient(to bottom, #e9ecf1, #c7cdd7);
+    border-radius: 20px;
+}
+
+#downloadSection h1{
+    font-size: xx-large;
+}
+
+#downloadSection figure {
+    height: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#downloadSection a {
+    background-color: #15a6f0;
+    margin-top: 20px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+#downloadSection a:hover{
+    background-color: #029be9;
+}
+
+#downloadSection img {
+    width: 100%;
+    margin: 0 auto;
+}
